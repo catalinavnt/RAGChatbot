@@ -1,0 +1,1 @@
+This is not a PDF file. Your upload endpoint should reject this file because it does not end with .pdf.

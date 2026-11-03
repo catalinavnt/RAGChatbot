@@ -1,0 +1,75 @@
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python / FastAPI
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Angular / Node.js
+# =========================
+node_modules/
+dist/
+.angular/
+.npm/
+coverage/
+
+*.tsbuildinfo
+
+# =========================
+# Uploaded PDF documents
+# =========================
+backend/app/uploads/*
+!backend/app/uploads/.gitkeep
+
+# =========================
+# Chroma / Local databases
+# =========================
+chroma_data/
+chroma_db/
+chroma_storage/
+*.sqlite3
+*.db
+
+# =========================
+# Logs / Temporary files
+# =========================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
