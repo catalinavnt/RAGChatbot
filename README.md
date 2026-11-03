@@ -4,6 +4,10 @@ A full-stack application for uploading PDF documents and asking questions about 
 
 Built with **Angular**, **FastAPI**, **ChromaDB**, and **Docker Compose**.
 
+## Application Preview
+
+![AI PDF RAG Chatbot](docs/screenshots/chat-demo.png)
+
 ## Features
 
 - Upload PDF files and extract their text with PyMuPDF.
